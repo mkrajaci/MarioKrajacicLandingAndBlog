@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     {% if title %}
-        <title>Django landing page about - {{ title }}</title>
+        <title>Django blog about - {{ title }}</title>
     {% else %}
-        <title>Django landing page about</title>
+        <title>Django blog about</title>
     {% endif %}</head>
 </head>
 <body>
-    <h1>Landing about preko template</h1>
+    {% block content %}{% endblock %}
 </body>
 </html>

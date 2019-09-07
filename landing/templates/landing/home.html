@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+    {% if title %}
+        <title>Django landing page - {{ title }}</title>
+    {% else %}
+        <title>Django landing page</title>
+    {% endif %}</head>
 <body>
     <h1>Landing home preko template</h1>
 </body>

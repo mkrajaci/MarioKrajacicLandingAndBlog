@@ -23,3 +23,7 @@ def blog(request):
         'posts': posts
     }
     return render(request, 'blog/blog.html', context)
+
+
+def about(request):
+    return render(request, 'blog/about.html', {'title': 'About'})
