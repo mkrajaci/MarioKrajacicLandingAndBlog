@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-    path('', views.blog, name='blog-home'),  # prvi atribut je url
+    path('', views.home, name='blog-home'),  # prvi atribut je url
 ]
