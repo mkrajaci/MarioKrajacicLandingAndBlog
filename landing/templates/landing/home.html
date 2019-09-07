@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    {% if title %}
-        <title>Django landing page - {{ title }}</title>
-    {% else %}
-        <title>Django landing page</title>
-    {% endif %}</head>
-<body>
+{% extends "landing/base.html" %}
+{% block content %}
     <h1>Landing home preko template</h1>
-</body>
-</html>
+{% endblock content %}
