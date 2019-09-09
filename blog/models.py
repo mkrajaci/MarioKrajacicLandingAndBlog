@@ -13,3 +13,6 @@ class Post(models.Model):
     # tip polja je zbog toga ForeignKey i prvi atribut je
     # polje na koje se odnosi veza
     author = models.ForeignKey(User, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title
