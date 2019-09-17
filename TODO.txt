@@ -1,2 +1,5 @@
 Ovdje si stao:
 https://www.youtube.com/watch?v=aHC3uTkT9r8&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=5
+
+Prije deploya iymjeniti ovo sto sam radio za development
+https://docs.djangoproject.com/en/2.2/howto/static-files/#serving-files-uploaded-by-a-user-during-development
