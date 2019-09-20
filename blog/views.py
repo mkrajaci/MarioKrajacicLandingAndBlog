@@ -19,6 +19,7 @@ class PostListView(ListView):
     template_name = 'blog/blog.html'
     context_object_name = 'posts'
     ordering = ['-date_posted']  # Ovdje mijenjam redosljed postova na blogu
+    paginate_by = 2
 
 
 class PostDetailView(DetailView):
