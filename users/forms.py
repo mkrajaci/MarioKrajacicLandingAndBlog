@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 from .models import Profile
 
+
 # Ovdje nasljedjujem original forms koji je koristi na admin pageu
 # i dodajem svoja polja koja zelim vidjeti tamo
 
