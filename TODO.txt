@@ -3,5 +3,3 @@ https://www.youtube.com/watch?v=Sa_kQheCnds&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6
 
 Prije deploya izmjeniti ovo sto sam radio za development
 https://docs.djangoproject.com/en/2.2/howto/static-files/#serving-files-uploaded-by-a-user-during-development
-
-Sloziti u metodu za footer da se godina na copyrihgt-u automatski povlaci po trenutnom datumu
